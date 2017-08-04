@@ -8,7 +8,7 @@
 import os
 import setuptools
 from numpy.distutils.core import setup
-from download import __version__
+from jekyllmarkdown import __version__
 
 descr = """Defines a JekyllMarkdown converter for nbconvert."""
 

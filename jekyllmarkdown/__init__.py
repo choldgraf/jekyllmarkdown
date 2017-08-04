@@ -3,6 +3,8 @@ from nbconvert.exporters.markdown import MarkdownExporter
 import os.path as op
 from traitlets import default
 
+__version__ = "0.1"
+
 
 class JekyllMarkdownExporter(MarkdownExporter):
     """
